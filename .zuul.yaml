@@ -5,5 +5,6 @@
       jobs:
         - myjob-noop
     gate-github.com:
+      queue: repopo-integrated
       jobs:
         - myjob-noop
