@@ -1,10 +1,6 @@
 ---
 - project:
     name: morucci/repopo2
-    check-github.com:
+    experimental:
       jobs:
-        - myjob-noop
-    gate-github.com:
-      queue: repopo-integrated
-      jobs:
-        - myjob-noop
+        - noop
