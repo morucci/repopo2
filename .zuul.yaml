@@ -3,4 +3,4 @@
     name: morucci/repopo2
     experimental:
       jobs:
-        - noop
+        - tox-py27
